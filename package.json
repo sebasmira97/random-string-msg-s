@@ -1,0 +1,26 @@
+{
+  "name": "random-string-msg-s",
+  "version": "1.0.0",
+  "description": "Random String Messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebasmira97/random-string-msg-s.git"
+  },
+  "author": "Sebastian Restrepo Mira <sebarestrepo97@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebasmira97/random-string-msg-s/issues"
+  },
+  "homepage": "https://github.com/sebasmira97/random-string-msg-s#readme",
+  "bin": {
+    "random-string-msg-s": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "user": "^0.0.0"
+  }
+}
